@@ -1,0 +1,33 @@
+{
+  "name": "autostocksa",
+  "version": "0.0.1",
+  "description": "Distribuidor oficial de filtros SAKURA",
+  "productName": "AutoStock SA",
+  "cordovaId": "ar.com.autostock-sa",
+  "author": "Lucas Randazzo <lucas@ombustudio.com.ar>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@firebase/app": "^0.4.17",
+    "@firebase/firestore": "^1.5.3",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "firebase": "^6.6.2",
+    "quasar": "^1.0.0",
+    "vue-firestore": "^0.3.22",
+    "vue-i18n": "^8.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
