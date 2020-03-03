@@ -10,11 +10,9 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@firebase/app": "^0.4.17",
-    "@firebase/firestore": "^1.5.3",
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
-    "firebase": "^6.6.2",
+    "firebase": "^7.9.3",
     "quasar": "^1.0.0",
     "vue-firestore": "^0.3.22",
     "vue-i18n": "^8.0.0"
