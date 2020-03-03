@@ -14,7 +14,6 @@
     "axios": "^0.18.1",
     "firebase": "^7.9.3",
     "quasar": "^1.0.0",
-    "vue-firestore": "^0.3.22",
     "vue-i18n": "^8.0.0"
   },
   "devDependencies": {
