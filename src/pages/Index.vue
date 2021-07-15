@@ -31,7 +31,7 @@
       </div>
       <div class="col-md-6 col-sm-12">
         <h2 class="lh">
-          <router-link to="/nosotros">
+          <router-link to="/buscar">
             <q-icon size="sm" name="class" style="color: #CE0000" />
             <span>Catálogo online</span>
             <q-icon size="sm" name="img:statics/icons/icon_red-arrow-right.png" />
@@ -42,7 +42,7 @@
           <figure><img src="statics/catalogo-sakura.jpg" alt="Catálogo filtros Sakura"></figure>
           <div>
             <p class="boton"><router-link to="/buscar">Buscar por modelo o código</router-link></p>
-            <p class="boton"><router-link to="/catalogo">Ver catálogo</router-link></p>
+            <!-- <p class="boton"><router-link to="/catalogo">Ver catálogo</router-link></p> -->
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@ export default {
 
 .intro-ctlg { border: 1px solid #CE0000 }
 .intro-ctlg > p { padding: 20px; background: #CE0000; text-transform: uppercase; color: white; font-size: 23px }
-.intro-ctlg > div, .intro-ctlg > figure { padding: 20px; display: flex; justify-content: space-between }
+.intro-ctlg > div, .intro-ctlg > figure { padding: 20px; display: flex; justify-content: flex-end; }
 
 .intro-nt { background: #161616; color: white }
 //.intro-nt article { display: flex }

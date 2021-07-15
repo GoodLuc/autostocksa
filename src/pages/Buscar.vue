@@ -1,8 +1,8 @@
 <template>
-  <q-page class="flex flex-center">
+  <div>
     <HeaderBig></HeaderBig>
 
-  </q-page>
+  </div>
 </template>
 
 <script>
