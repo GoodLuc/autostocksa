@@ -60,10 +60,10 @@
               </q-expansion-item>
             </div>
           </div>
-          <div class="row items-center justify-center entienda" v-if="producto.en_tienda.incluido">
+          <!-- <div class="row items-center justify-center entienda" v-if="producto.en_tienda.incluido">
             <p class="valor q-mr-lg">Valor: ${{ producto.en_tienda.valor }}</p>
             <q-btn :to="'/comprar/'+producto.slug" label="Comprar" glossy color="green" />
-          </div>
+          </div> -->
         </div>
         <div v-else>
           <p>No se encontraron productos para este modelo.</p>
